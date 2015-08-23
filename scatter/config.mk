@@ -65,6 +65,7 @@ CSRCS = \
        ../$(THIS)/main.c    \
        avr32/drivers/adc/adc.c                            \
        avr32/drivers/gpio/gpio.c                          \
+       avr32/drivers/flashc/flashc.c                          \
        avr32/drivers/intc/intc.c                          \
        avr32/drivers/pm/pm.c                              \
        avr32/drivers/pm/pm_conf_clocks.c                  \
@@ -85,6 +86,7 @@ INC_PATH = \
        avr32/drivers/cpu/cycle_counter                    \
        avr32/drivers/gpio                                 \
        avr32/drivers/adc                                 \
+       avr32/drivers/flashc                                 \
        avr32/drivers/intc                                 \
        avr32/drivers/pm                                   \
        avr32/drivers/pwm                                  \
